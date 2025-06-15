@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { handleLogin } from "./loginFunctions";
+import { handleLogin } from "./LoginFunctionality";
 
 const Login = () => {
   const [email, setEmail] = useState("");
